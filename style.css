@@ -25,6 +25,8 @@ ul {
 .header {
     min-height: 100vh;
     background: dodgerblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__nav {
@@ -51,4 +53,18 @@ ul {
 .header__link {
     font-size: 20px;
     color: white;
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    color: white;
+}
+.header__title{
+    font-size: 60px;
+}
+.header__txt{
+    font-style: 22px;
 }
